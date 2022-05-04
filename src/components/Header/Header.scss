@@ -1,0 +1,23 @@
+@import "../../common";
+
+header {
+    padding: 1rem 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+
+    .container {
+        display: flex;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+        }
+
+        h2 {
+            color: $primary-color;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    }
+}

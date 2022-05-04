@@ -1,0 +1,14 @@
+@import "../../common";
+
+.badge {
+    display: inline-block;
+    background-color: $primary-color;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    border-radius: 50rem;
+    margin: 0.15rem 0;
+    margin-right: 0.15rem;
+}
