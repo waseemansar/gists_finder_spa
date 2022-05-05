@@ -1,3 +1,5 @@
+@use "../../config";
+
 .forks {
     ul {
         list-style: none;
@@ -5,7 +7,7 @@
 
         li > a {
             text-decoration: none;
-            color: #333;
+            color: config.$text-color;
             display: flex;
             align-items: center;
             background-color: #fff;
@@ -16,7 +18,7 @@
     }
 
     .no-data {
-        color: #333;
+        color: config.$text-color;
         text-align: center;
     }
 }

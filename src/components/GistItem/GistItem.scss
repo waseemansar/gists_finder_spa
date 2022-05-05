@@ -1,7 +1,9 @@
+@use "../../config";
+
 .gist-item {
     display: flex;
     align-items: center;
     padding: 1rem;
-    color: #333;
+    color: config.$text-color;
     text-decoration: none;
 }

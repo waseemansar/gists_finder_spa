@@ -1,8 +1,8 @@
-@import "../../common";
+@use "../../config";
 
 .badge {
     display: inline-block;
-    background-color: $primary-color;
+    background-color: config.$primary-color;
     padding: 0.35em 0.65em;
     font-size: 0.75em;
     font-weight: 700;

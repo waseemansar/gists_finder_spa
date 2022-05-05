@@ -1,9 +1,11 @@
+@use "../../config";
+
 .gists-count {
     text-align: center;
-    color: #999;
+    color: config.$light-color;
 
     span {
-        color: #141414;
+        color: config.$text-color;
         font-weight: 700;
     }
 }

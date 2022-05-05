@@ -1,4 +1,4 @@
-@import "../../common";
+@use "../../config";
 
 header {
     padding: 1rem 0;
@@ -14,7 +14,7 @@ header {
         }
 
         h2 {
-            color: $primary-color;
+            color: config.$primary-color;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 2px;
